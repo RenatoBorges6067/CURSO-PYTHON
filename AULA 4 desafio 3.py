@@ -1,0 +1,5 @@
+print ('ESCREVA 2 NUMEROS PARA FAZER UMA SOMA')
+a = int (input ("1°:"))
+print ("+")
+b = int (input ("2°:"))
+print ("SEU RESULTADO FOI:",a+b)

@@ -1,0 +1,4 @@
+
+nome = input ("QUAL O SEU NOME? ")
+print ("Olá",nome,"! Prazer em te conhecer!")
+

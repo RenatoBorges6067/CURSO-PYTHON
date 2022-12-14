@@ -1,0 +1,4 @@
+print("DIGITE O PREÇO DO SEU PRODUTO E DESCUBRA QUANTO QUE VOCE VAI PAGAR COM 5% DE DESCONTO!")
+p = float(input("PREÇO:"))
+d = 5 * p / 100
+print("O VALOR QUE VOCE VAI PAGAR AGORA É DE {} REAIS".format(p-d))

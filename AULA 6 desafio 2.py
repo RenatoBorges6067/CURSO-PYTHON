@@ -1,0 +1,7 @@
+n = input("ESCREVA ALGO!")
+print(type(n))
+print("O QUE VOCE DIGITOU É ALFANUMERICO?", n.isalnum())
+print("O QUE VOCE DIGITOU É UM NUMERO DECIMAL?", n.isdecimal())
+print("O QUE VOCE DIGITOU É NUMERICO?",n.isnumeric())
+print("O QUE VOCE DIGITOU É LETRA MINUSCULA?", n.islower())
+print("O QUE VOCE DIGITOU É LETRA MAIUSCULA?", n.isupper())

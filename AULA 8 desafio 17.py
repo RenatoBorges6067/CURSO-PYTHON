@@ -1,1 +1,5 @@
-
+print('ESCREVA OS CATEROS DE UM TRIANGULO RETANGULO')
+oposto = float(input('CATETO OPOSTO:'))
+adjacente = float(input('CATETO ADJACENTE:'))
+hipo = (oposto ** 2 + adjacente ** 2 ) ** (1/2)
+print('O CUMPRIMENTO DA HIPOTENUSA DO SEU TRIANGULO RETANGULO É {:.2f}'.format(hipo))

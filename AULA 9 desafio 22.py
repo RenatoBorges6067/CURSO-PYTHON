@@ -1,1 +1,6 @@
-
+nome = str(input('ESCREVA SEU NOME :')).strip()
+nomes = nome.split()
+print('SEU NOME TODO MAIUSCULO FICA ASSIM : {}'.format(nome.upper()))
+print('SEU NOME TODO MINUSCULO FICA ASSIM : {}'.format(nome.lower()))
+print("SEU NOME TEM {} LETRAS".format(len(nome) - nome.count(' ')))
+print("SEU PRIMEIRO NOME TEM {} LETRAS".format(len(nomes[0])))
